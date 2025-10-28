@@ -1,4 +1,4 @@
-import abtImg from './img.jpeg'
+import abtImg from "../../assets/img.jpeg"
 function About(){
     return(
         <>

@@ -1,5 +1,6 @@
 
-import './App.css';
+import './CssFiles/App.css';
+
 import Navbar from './Components/Navbar';
 import Home from './Components/HeroSection/Home';
 import About from './Components/HeroSection/About';
@@ -9,7 +10,7 @@ import Skills from './Components/HeroSection/Skill';
 function App() {
 
   return (
-    <div className='bg-[#1E1E1E] text-[#d3d3d3] min-h-screen '>
+    <div className='bg-[#1E1E1E] text-[#d3d3d3] min-h-screen absolute'>
     <Navbar />
     <Home />
     <About />

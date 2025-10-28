@@ -6,11 +6,13 @@ import { CgGitFork } from "react-icons/cg";
 import { FaStar } from "react-icons/fa6";
 import { AiFillTrophy } from "react-icons/ai";
 
+// REMINDER!!!!!!!!!!!!!!!!!!!!!----->ADD HOVER FUNCTIONALITY
+
 function Navbar(){
     return (
-        <nav id="Navbar" className=" flex pt-10  justify-evenly p-5 font-bold text-xl">
-            <a className=" ml-10 text-[#d3d3d3] font-extrabold">ANUJ PUNDORA</a>
-            <div id="right-side" className="flex justify-evenly ml-auto mr-10 space-x-5">
+        <nav id="Navbar" className="flex pt-10  justify-evenly p-5 font-bold text-xl ">
+            <a id="logo" className=" ml-10 text-[#d3d3d3] font-extrabold">ANUJ PUNDORA</a>
+            <div id="links" className="flex justify-evenly ml-auto mr-10 space-x-5">
                 <a href="#home" className="  flex gap-1.5 text-[#d3d3d3]">
                     <FaHome className="text-xl  relative top-1"/>Home</a>
                 <a href="#about" className="  flex gap-1.5 text-[#d3d3d3]">

@@ -2,9 +2,9 @@ import "./Animate.css"
 
 function HomeAnimation(){
 
-    const width=900;
-    const height=700;
-    const particles=Array.from({length:75},()=>({
+    const width=800;
+    const height=600;
+    const particles=Array.from({length:80},()=>({
         x:Math.random()*width - width/2,
         y:Math.random()* height - height/2,
         size:Math.random() * 30 + 1,
