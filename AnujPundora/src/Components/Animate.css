@@ -1,0 +1,13 @@
+@keyframes moveToCentre{
+    from{
+        transform: translate(var(--x),var(--y));
+        opacity: 0.8;
+    }
+    to{
+        transform : translate(0,0);
+        opacity: 0;
+    }
+}
+animate-moveToCentre{
+    animation : moveToCentre 3s linear infinite;
+}
