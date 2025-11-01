@@ -4,9 +4,9 @@ import './CssFiles/App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/HeroSection/Home';
 import About from './Components/HeroSection/About';
-import Resume from './Components/HeroSection/resume';
+import Resume from './Components/HeroSection/skillSection/Resume';
 import Footer from './Components/Footer';
-import Skills from './Components/HeroSection/Skill';
+
 function App() {
 
   return (
@@ -15,7 +15,6 @@ function App() {
     <Home />
     <About />
     <Resume />
-    <Skills /> 
     <Footer/>
     </div>
   );

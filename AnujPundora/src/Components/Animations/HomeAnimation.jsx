@@ -2,8 +2,8 @@ import "./Animate.css"
 
 function HomeAnimation(){
 
-    const width=800;
-    const height=600;
+    const width=window.innerWidth;
+    const height=window.innerHeight;
     const particles=Array.from({length:80},()=>({
         x:Math.random()*width - width/2,
         y:Math.random()* height - height/2,
@@ -12,7 +12,7 @@ function HomeAnimation(){
         duration : Math.random()* 3 + 2
     }))
     return(
-        <div className="relative h-screen w-full overflow-hidden ">
+        <div className="relative h-screen w-full overflow-hidden  ">
            
             {
                 particles.map((part,i)=>(
