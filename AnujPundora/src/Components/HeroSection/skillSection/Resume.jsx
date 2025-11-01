@@ -2,8 +2,9 @@ import { useState } from "react";
 import Filtering from "./Filtering.jsx";
 import FilterBtn from "./FilterBtn.jsx";
 import Skills from "./Skills.jsx";
-
+import resume from "../../../assets/resume.png"
 function Resume(){
+
     const [filter,setFilter]=useState("All");
 
     //Setting up the filter for showing intreseted Shkills only
@@ -31,25 +32,10 @@ function Resume(){
         <div id="skills" className="flex flex-wrap gap-10">       
 
             <Filtering filter={filter}/>
-
-
-
-
-            {/* <Skills name="Java"/>
-            <Skills name="React" />
-            <Skills name="SpringBoot" />
-            <Skills name="PostgreSQL" />
-            <Skills name="JavaScript" />
-            <Skills name="TailwindCSS" />
-            <Skills name="Python"/>
-            <Skills name="Git" />
-            <Skills name="Dockers" />
-            <Skills name="Kubernative" />
-            <Skills name="Problem Solving" /> */}
-
-            
-
+            <div className=" w-full h-full mt-10 pt-20 pl-20 p-40">
+            <img src={resume} className=''/>
             </div>
+                </div>
 
         </div>
         </>
