@@ -12,7 +12,7 @@ function About(){
                 <p>Outside of coding, I enjoy activities that keep me curious and balanced — playing chess to sharpen my strategic thinking, listening to music to relax and stay inspired, and playing cricket for teamwork and focus. These hobbies help me stay creative and disciplined both inside and outside the tech world.</p>
                 <p>If you’d like to connect or learn more about my work, feel free to reach out on <span className=' text-[#FFB606]'>LinkedIn </span>or check out my projects on GitHub. I’m always open to discussions, collaborations, and new opportunities to learn and grow.</p>
             </div> 
-            <div id="abt-imp" className=" text-amber-50  outline-4 outline-[#8a2be2] w-1/4">
+            <div id="abt-imp" className=" text-amber-50  outline-4  shadow-[0_0_40px_#d6af53]  outline-[#FFB606] w-1/4">
                 <img src={abtImg} className=''/>
             </div>
         </div>
