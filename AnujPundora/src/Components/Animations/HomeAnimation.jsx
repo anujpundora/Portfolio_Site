@@ -1,5 +1,6 @@
 import "./Animate.css"
 
+
 function HomeAnimation(){
 
     const width=window.innerWidth;
@@ -29,9 +30,11 @@ function HomeAnimation(){
                 }}/>  
                 ))  
             }
+           
             <img src="src/assets/spaceJet.png"
-             className=" absolute h-100 w-100 left-1/2  top-1/2 transform  animate-float"
+              className=" absolute h-100 w-100 left-1/2  top-1/2 transform  animate-float"
              alt="Space Ship" />
+            
         </div>
     )
 }
