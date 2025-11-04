@@ -5,17 +5,33 @@ import { FaFileCode } from "react-icons/fa";
 import { CgGitFork } from "react-icons/cg";
 import { FaStar } from "react-icons/fa6";
 import { AiFillTrophy } from "react-icons/ai";
-import { useState } from "react";
+import React,{ useEffect, useState } from "react";
 
 // REMINDER!!!!!!!!!!!!!!!!!!!!!----->ADD HOVER FUNCTIONALITY
 
+
+
 function Navbar(){
+    //For blur on scroll functionality
+
+    const[scrolled ,setScrolled] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+        }, []);
+
     //For adding shadow on hover
-    const[hover,setHover] = useState(true)
+    const[hover,setHover] = useState(0)
     //For on click color change
     const[click,setClick]=useState(0)
     return (
-        <nav id="Navbar" className="flex pt-10  justify-evenly p-5 font-bold text-xl ">
+        <nav id="Navbar" className={` fixed flex pt-7.5 w-full justify-evenly p-5 font-bold text-xl z-50
+         ${scrolled ? "backdrop-blur-md bg-[#0f0f0f80] shadow-md" : "bg-transparent"}`}>
             <a id="logo" className=" ml-10 text-[#d3d3d3] font-extrabold">ANUJ PUNDORA</a>
             <div id="links" className="flex justify-evenly ml-auto mr-10 space-x-5">
                 <a href="#home" 

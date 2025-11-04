@@ -2,7 +2,7 @@ import abtImg from "../../assets/img.jpeg"
 function About(){
     return(
         <>
-        <div id="about" className=" flex items-center gap-10 pl-30 pr-30 text-2xl text-[#d3d3d3] ">
+        <div id="about" className=" flex items-center gap-10 pt-30 pl-30 pr-30 text-2xl text-[#d3d3d3] ">
             <div id="abt-txt" className="flex-col space-y-5 w-3/4 "> 
                 <h1 className='text-8xl font-extrabold '>About me</h1>
                 <p>Hi, I’m <span className=' text-[#FFB606]'>Anuj Pundora</span>- a tech enthusiast who loves exploring everything from<span className=' text-[#FFB606]'> web development to AI.</span> I enjoy building projects that connect creativity with logic, whether it’s designing smooth user experiences or working on the backend that powers them. I’m always curious to learn new technologies, take on fresh challenges, and grow through every opportunity the IT world offers.</p>
