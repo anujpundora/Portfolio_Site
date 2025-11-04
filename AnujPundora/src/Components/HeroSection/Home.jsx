@@ -2,7 +2,7 @@ import HomeAnimation from "../Animations/HomeAnimation";
 import Typewriter from 'typewriter-effect';
 function Home(){
     return(
-        <div id="home" className="flex items-center justify-around pt-0  pr-0 p-15 ">
+        <div id="home" className="flex  items-center justify-around pt-0  pr-0 p-15 ">
             <div id="hm-txt" className="flex-col justify-center space-y-20 items-center max-w-1/3 text-[#FFB606] font-extrabold text-5xl "> 
                     <h6 className="text-5xl ">Launching ideas into the digital cosmos</h6>
                   

@@ -4,7 +4,9 @@ function ProjectHandler(){
     const stacks = useTechStack();
     return (
 
-        <div id="project" className="flex flex-col space-y-20 pl-30 pr-30">
+        <div id="project" className="flex flex-col space-y-20 pl-50 pr-50">
+            <h1 className=" text-8xl font-extrabold">
+                Projects</h1>
             <Project 
                 tittle="AI-Powered Page Summarizer Chrome-ext" 
                 desc="AI-driven Chrome Extension that generates concise summaries of web pages using the Gemini API, improving user productivity. " 
@@ -14,12 +16,12 @@ function ProjectHandler(){
             />
             <Project tittle="E-COMIFY" 
                 desc="Developed a full-stack e-commerce platform with Spring Boot and React.js, implementing RESTful APIs, dynamic UI, and database integration with MySQL." 
-                tchStk={stacks.temp} gH="https://github.com/anujpundora/ecom_project"
+                tchStk={stacks.ecomify} gH="https://github.com/anujpundora/ecom_project"
                 src="/src/assets/vid.mp4"/>
 
             <Project tittle="Personal Portfolio Website" 
                 desc="Built a responsive personal portfolio using React.js and Tailwind CSS, featuring project highlights and smooth UI interactions" 
-                tchStk={stacks.temp} gH="www.youtube.com"
+                tchStk={stacks.portfolio} gH="www.youtube.com"
                 src="/src/assets/portfolio.mp4"/>
         </div>
     )
