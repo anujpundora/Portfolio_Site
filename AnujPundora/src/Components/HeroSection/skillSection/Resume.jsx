@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Filtering from "./Filtering.jsx";
 import FilterBtn from "./FilterBtn.jsx";
-import resume from "../../../assets/resume.png"
+
 function Resume(){
     const [active,setActive] = useState("All")
     const [filter,setFilter]=useState("All");
@@ -34,7 +34,7 @@ function Resume(){
 
             <Filtering filter={filter}/>
             <div className=" w-full h-full mt-10 pb-0 pt-20 pl-20 p-40">
-            <img src={resume} className=''/>
+            <img src="/images/resume.png" className=''/>
             </div>
                 </div>
 

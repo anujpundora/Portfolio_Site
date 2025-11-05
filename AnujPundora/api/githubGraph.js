@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   try {
-    console.log("🔍 GitHub GraphQL API called...");
+
 
     const query = `
       {
@@ -36,7 +36,7 @@ export default async function handler(req, res) {
     }
 
     const data = await response.json();
-    console.log("✅ GitHub data received:", JSON.stringify(data, null, 2));
+
 
     res.status(200).json(data);
   } catch (error) {

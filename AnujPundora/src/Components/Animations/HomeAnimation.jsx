@@ -31,7 +31,7 @@ function HomeAnimation(){
                 ))  
             }
            
-            <img src="src/assets/spaceJet.png"
+            <img src="/images/spaceJet.png"
               className=" absolute h-100 w-100 left-1/2  top-1/2 transform  animate-float"
              alt="Space Ship" />
             

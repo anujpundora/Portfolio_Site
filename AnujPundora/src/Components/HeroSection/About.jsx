@@ -1,4 +1,4 @@
-import abtImg from "../../assets/img.jpeg"
+
 function About(){
     return(
         <>
@@ -13,7 +13,7 @@ function About(){
                 <p>If you’d like to connect or learn more about my work, feel free to reach out on <span className=' text-[#FFB606]'>LinkedIn </span>or check out my projects on GitHub. I’m always open to discussions, collaborations, and new opportunities to learn and grow.</p>
             </div> 
             <div id="abt-imp" className=" text-amber-50  outline-4  shadow-[0_0_40px_#d6af53]  outline-[#FFB606] w-1/4">
-                <img src={abtImg} className=''/>
+                <img src="/images/img.jpeg" className=''/>
             </div>
         </div>
         </>

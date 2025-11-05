@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa";
 import { CgGitFork } from "react-icons/cg";
 import { FaStar } from "react-icons/fa6";
-import React,{ useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 
 function Navbar(){
