@@ -4,7 +4,7 @@ function ProjectHandler(){
     const stacks = useTechStack();
     return (
 
-        <div id="project" className="flex flex-col space-y-20 pt-30 pl-50 pr-50">
+        <div id="project" className="flex  space-y-20 pt-30 pl-50 pr-50">
             <h1 className=" ml-[-100px] text-8xl font-extrabold">
                 Projects</h1>
             <Project 
