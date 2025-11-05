@@ -7,9 +7,6 @@ import { FaStar } from "react-icons/fa6";
 import { AiFillTrophy } from "react-icons/ai";
 import React,{ useEffect, useState } from "react";
 
-// REMINDER!!!!!!!!!!!!!!!!!!!!!----->ADD HOVER FUNCTIONALITY
-
-
 
 function Navbar(){
     //For blur on scroll functionality
@@ -77,20 +74,13 @@ function Navbar(){
                     }}>
                     <FaFileCode className="relative top-1"/>
                     Resume</a>
-                <a href="#skill"
-                    onMouseEnter={()=>{setHover(5)}}
-                    onMouseLeave={()=>{setHover(0)}} 
-                    onClick={()=>{setClick(5)}}
-                    className={`flex gap-1.5 
-                    ${click === 5 ?"text-amber-300":"text-[#d3d3d3]"}`}
-                    style = {{
-                        textShadow : hover === 5 ? "-20px 0 30px rgba(255,182,6,1)":"none",
-                    }}>
-                    <AiFillTrophy className="relative top-1"/>
-                    Skills
-                </a>
-                <button className=" flex gap-5 relative bottom-1.5 p-2  pr-3 border-2 border-gold-100 text-[#FFB606]">
-                    <CgGitFork /> <FaStar /></button>
+                
+                <a
+                    href="https://github.com/anujpundora/Portfolio_Site"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className=" flex gap-5 relative bottom-1.5 p-2  pr-3 border-2 border-gold-100 text-[#FFB606] hover:bg-[#FFB606] hover:text-[#1E1E1E] transition-all duration-300">
+                    <CgGitFork /> <FaStar /></a>
             </div>
         </nav>
 

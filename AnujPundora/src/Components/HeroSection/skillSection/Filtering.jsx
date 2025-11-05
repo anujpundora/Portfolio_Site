@@ -1,6 +1,8 @@
+import { useState } from "react";
 import Skills from "./Skills"
 function Filtering({filter}){
-       
+      
+  
     const skillMap={
         All: [
       "Java", "React", "SpringBoot", "PostgreSQL", "JavaScript",
@@ -22,8 +24,11 @@ function Filtering({filter}){
     const selectedSkills = skillMap[filter];
     return(
         <div className="flex flex-wrap gap-10">
+
             {selectedSkills.map((name)=>(
-                <Skills key={name} name = {name} />
+                <Skills 
+                  key={name}
+                  name = {name} />
         ))}
         </div>
     )

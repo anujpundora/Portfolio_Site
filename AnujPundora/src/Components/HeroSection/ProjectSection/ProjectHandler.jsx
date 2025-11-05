@@ -15,7 +15,7 @@ function ProjectHandler(){
                 src="/src/assets/IMG_3123.mp4"
             />
             <Project tittle="E-COMIFY" 
-                desc="Developed a full-stack e-commerce platform with Spring Boot and React.js, implementing RESTful APIs, dynamic UI, and database integration with MySQL." 
+                desc="Developed a full-stack e-commerce platform with Spring Boot and React.js, implementing RESTful APIs, dynamic UI." 
                 tchStk={stacks.ecomify} gH="https://github.com/anujpundora/ecom_project"
                 src="/src/assets/vid.mp4"/>
 
