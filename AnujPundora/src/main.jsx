@@ -8,8 +8,6 @@ import './CssFiles/index.css';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <TechStackProvider>
       <App />
-    </TechStackProvider>
   </React.StrictMode>
 )
