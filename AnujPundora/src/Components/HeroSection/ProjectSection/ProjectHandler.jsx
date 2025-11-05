@@ -21,7 +21,7 @@ function ProjectHandler(){
 
             <Project tittle="Personal Portfolio Website" 
                 desc="Built a responsive personal portfolio using React.js and Tailwind CSS, featuring project highlights and smooth UI interactions" 
-                tchStk={stacks.portfolio} gH="www.youtube.com"
+                tchStk={stacks.portfolio} gH="https://github.com/anujpundora/Portfolio_Site"
                 src="/src/assets/portfolio.mp4"/>
         </div>
     )

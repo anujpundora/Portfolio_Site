@@ -7,6 +7,7 @@ import About from './Components/HeroSection/About';
 import Resume from './Components/HeroSection/skillSection/Resume';
 import Footer from './Components/Footer';
 import ProjectHandler from './Components/HeroSection/ProjectSection/ProjectHandler';
+import GithubGraph from './Components/GithubGraph/GithubGraph';
 
 function App() {
 // bg-[#1E1E1E]
@@ -17,6 +18,7 @@ function App() {
     <About />
     <ProjectHandler />
     <Resume />
+    <GithubGraph/>
     <Footer/>
     </div>
   );

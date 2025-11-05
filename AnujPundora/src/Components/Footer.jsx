@@ -5,7 +5,7 @@ import { FaGoogle } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa"; // Copyright
 function Footer(){
     return (
-       <div className=" flex flex-col justify-between items-center pt-8 bg-linear-to-b from-[#1A1A1A] to-[#2b2929] border-t-2  border-amber-300  h-100">
+       <div className=" flex flex-col justify-between items-center pt-8 bg-linear-to-b from-[#1A1A1A] to-[#2b2929]   h-100">
                 
                 <div id="contact-container"
                 className=" flex flex-col justify-center items-center mt-8 h-3/5 w-2/5 bg-[#2E2E2E] border border-amber-300 rounded-2xl space-y-8 p-10">

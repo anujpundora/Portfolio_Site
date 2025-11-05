@@ -41,7 +41,10 @@ function Project({tittle,desc,tchStk,gH,src}){
                     {tech}
                     </div>
             ))}</div>
-            <a id="github-link" href={link} className="flex gap-3 text-xl text-amber-300">
+            <a id="github-link" href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex gap-3 text-xl text-amber-300">
                 <FaGithub className="mt-1" /> See on Github
             </a></div></div> 
             </Tilt>
