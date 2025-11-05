@@ -7,12 +7,7 @@ function Project({tittle,desc,tchStk,gH,src}){
         <>
         <div id="" className="">
              <Tilt
-                    glareEnable={true}
-                    glareMaxOpacity={0.2}
-                    scale={1.04}
-                    tiltMaxAngleX={10}
-                    tiltMaxAngleY={10}
-                    transitionSpeed={250}
+                    
                     className="rounded-2xl border border-[#FFB606] shadow-[0_0_40px_#FFB606] overflow-hidden"
                     >
             <div className="relative p-20 shadow-[0_0_40px_#FFB606] text--[#d3d3d3] h-[400px]  w-full rounded-2xl">
@@ -27,12 +22,12 @@ function Project({tittle,desc,tchStk,gH,src}){
             ></video>
             <div className="absolute inset-0 bg-black/65"></div>
             
-            <div className="relative z-10 flex flex-col items-center justify-center space-y-10 h-full b ">
+            <div className="relative flex flex-col items-center justify-center space-y-10 h-full b ">
             <h1 className=" text-5xl text-white">
                 {tittle}</h1>
             <p className=" text-xl"
                 >{desc}</p>
-            <div className="flex flex-wrap justify-center gap-2.5">
+            <div className=" gap-2.5">
                 {tchStk.map((tech, i) => (
                     <div
                     key={i}
