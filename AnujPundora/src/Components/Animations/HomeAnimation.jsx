@@ -5,9 +5,9 @@ function HomeAnimation(){
 
     const width=window.innerWidth;
     const height=window.innerHeight;
-    const particles=Array.from({length:80},()=>({
-        x:Math.random()*width - width/2,
-        y:Math.random()* height - height/2,
+    const particles=Array.from({length:8},()=>({
+        x:Math.random()*width - 2,
+        y:Math.random()* height - 2,
         size:Math.random() * 30 + 1,
         delay:Math.random() * 3,
         duration : Math.random()* 3 + 2
