@@ -1,6 +1,5 @@
 {
-  "rootDirectory": "Porfolio-AnujPundora",
-  "installCommand": "npm install",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "installCommand": "cd Porfolio-AnujPundora && npm install",
+  "buildCommand": "cd Porfolio-AnujPundora && npm run build",
+  "outputDirectory": "Porfolio-AnujPundora/dist"
 }
