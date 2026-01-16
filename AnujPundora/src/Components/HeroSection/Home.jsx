@@ -1,4 +1,5 @@
 import HomeAnimation from "../Animations/HomeAnimation.jsx";
+import Typewriter from 'typewriter-effect';
 function Home(){
     return(
         <div id="home" className="flex  items-center justify-around pt-0  pr-0 p-15 pb-0 ">
