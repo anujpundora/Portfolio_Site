@@ -12,7 +12,7 @@ import GithubGraph from './Components/GithubGraph/GithubGraph';
 function App() {
 // bg-[#1E1E1E]
   return (
-    <div className='bg-linear-to-b from-[#1E1E1E] to-[#1f1f1f] text-[#d3d3d3] font-RobotoMono,sans-serif min-h-screen absolute'>
+    <div className='bg-linear-to-b max-w-screen from-[#1E1E1E] to-[#1f1f1f] text-[#d3d3d3] font-RobotoMono,sans-serif min-h-screen absolute'>
     <Navbar />
     <Home />
     <About />

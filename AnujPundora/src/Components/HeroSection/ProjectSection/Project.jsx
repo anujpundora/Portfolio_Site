@@ -27,11 +27,11 @@ function Project({tittle,desc,tchStk,gH,src}){
                 {tittle}</h1>
             <p className=" text-xl"
                 >{desc}</p>
-            <div className=" gap-2.5">
+            <div className=" flex gap-2.5">
                 {tchStk.map((tech, i) => (
                     <div
                     key={i}
-                    className="px-4 py-1 bg-[#2A2A2A99] rounded-3xl text-[#FFB606] border border-[#FFB606] text-center"
+                    className="px-4 py-1 bg-[#2A2A2A99] rounded-3xl text-[#FFB606] border border-[#FFB606] whitespace-nowrap text-center"
                     >
                     {tech}
                     </div>
