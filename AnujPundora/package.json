@@ -30,5 +30,8 @@
     "globals": "^16.4.0",
     "tailwindcss": "^4.1.16",
     "vite": "^7.1.7"
+  },
+  "engines": {
+  "node": ">=18"
   }
 }
