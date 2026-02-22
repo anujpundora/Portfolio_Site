@@ -1,6 +1,5 @@
 import "./Animate.css"
 
-
 function HomeAnimation(){
 
     const width=window.innerWidth;
