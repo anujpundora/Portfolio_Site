@@ -4,8 +4,8 @@ function ProjectHandler(){
     const stacks = useTechStack();
     return (
 
-        <div id="project" className="flex-col space-y-20 pt-30 pl-50 pr-50">
-            <h1 className=" ml-[-100px] text-8xl font-extrabold">
+        <div id="project" className="flex-col space-y-20 pt-30 md:pl-50 md:pr-50">
+            <h1 className=" md:ml-[-100px]  text-8xl font-extrabold">
                 Projects</h1>
             <Project 
                 tittle="AI-Powered Page Summarizer Chrome-ext" 

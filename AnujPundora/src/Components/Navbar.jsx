@@ -26,7 +26,7 @@ function Navbar(){
     //For on click color change
     const[click,setClick]=useState(0)
     return (
-        <nav id="Navbar" className={` fixed flex pt-7.5 w-full justify-evenly p-5 font-bold text-xl z-50
+        <nav id="Navbar" className={`hidden fixed md:flex pt-7.5 w-full justify-evenly p-5 font-bold text-xl z-50
          ${scrolled ? "backdrop-blur-md bg-[#0f0f0f80] shadow-md" : "bg-transparent"}`}>
             <a id="logo" className=" ml-10 text-[#d3d3d3] font-extrabold">ANUJ PUNDORA</a>
             <div id="links" className="flex justify-evenly ml-auto mr-10 space-x-5">

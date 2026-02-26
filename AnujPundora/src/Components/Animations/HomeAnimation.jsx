@@ -12,7 +12,7 @@ function HomeAnimation(){
         duration : Math.random()* 3 + 2
     }))
     return(
-        <div className="relative h-screen w-full overflow-hidden  ">
+        <div className="relative h-screen w-full md:overflow-hidden  ">
            
             {
                 particles.map((part,i)=>(

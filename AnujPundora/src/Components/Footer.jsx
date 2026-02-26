@@ -8,7 +8,7 @@ function Footer(){
        <div className=" flex flex-col justify-between items-center pt-8 bg-linear-to-b from-[#1A1A1A] to-[#2b2929]   h-100">
                 
                 <div id="contact-container"
-                className=" flex flex-col justify-center items-center mt-8 h-3/5 w-2/5 bg-[#2E2E2E] border border-amber-300 rounded-2xl space-y-8 p-10">
+                className=" flex flex-col justify-center items-center mt-8 h-3/5 w-4/5 bg-[#2E2E2E] border border-amber-300 rounded-2xl space-y-8 p-10">
                     <p className=" font-extrabold bg-linear-to-r from-amber-700 to-orange-200 text-4xl bg-clip-text text-transparent">
                         FIND ME ON
                     </p>
@@ -32,7 +32,7 @@ function Footer(){
                 </div>
             </div>
             {/* lower part that includes credit */}
-                <div id="lower-part" className=" flex  pb-0 p-10  mb-5 w-full justify-between text-xl ">
+                <div id="lower-part" className="hidden md:flex  pb-0 p-10  mb-5 w-full justify-between text-xl ">
                     <div id="bottom-left" className="flex gap-2.5 ">
                         <p className=" text-xl font-thin">Developed By </p>  
                             <a href="http://www.linkedin.com/in/anuj-pundora"
@@ -46,7 +46,7 @@ function Footer(){
                         <FaRegCopyright className="mt-1"/><p>2025 Anuj pundora</p>
                     </div>
                     
-                        <div id="links" className="flex font-extrabold mt-1 gap-5 text-center">
+                        <div id="links" className="hidden md:flex font-extrabold mt-1 gap-5 text-center">
                             <a href="https://github.com/anujpundora"
                                     target="_blank"
                                     rel="noopener noreferrer"><FaGithub /></a>

@@ -18,9 +18,9 @@ function Resume(){
     
     return(
         
-        <div id="resume" className=" flex-col gap-y-5  p-30">
+        <div id="resume" className="flex-col  gap-y-5 mt-30 md:p-30">
         <h1 className=" text-8xl font-extrabold text-[#d3d3d3] pb-10">Resume</h1>
-            <div id="filter" className=" flex justify-center gap-5 mb-10">
+            <div id="filter" className=" flex flex-wrap justify-center gap-5 mb-10">
                 <FilterBtn clickHandler={clickHandler} 
                     isActive={active === "All"}
                     type = "All"/>
@@ -33,7 +33,7 @@ function Resume(){
         <div id="skills" className="flex flex-wrap gap-10">       
 
             <Filtering filter={filter}/>
-            <div className=" w-full h-full mt-10 pb-0 pt-20 pl-20 p-40">
+            <div className=" w-full h-full mt-10 md:pb-0 md:pt-20 md:pl-20 md:p-40">
             <img src="/images/resume.png" className=''/>
             </div>
                 </div>

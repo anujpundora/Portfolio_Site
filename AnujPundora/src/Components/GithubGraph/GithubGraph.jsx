@@ -82,7 +82,7 @@ function GithubGraph() {
 
   return (
     <div className="flex flex-col items-center gap-10 pb-20 justify-center w-full">
-      <h1 id="heading" className="flex gap-2 text-5xl">
+      <h1 id="heading" className="flex flex-wrap gap-2 text-5xl">
         GITHUB CONTRIBUTION FOR THIS
         <span className="font-bold text-[#FFB606]">MONTH</span>
       </h1>

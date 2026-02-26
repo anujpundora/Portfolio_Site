@@ -27,7 +27,7 @@ function Project({tittle,desc,tchStk,gH,src}){
                 {tittle}</h1>
             <p className=" text-xl"
                 >{desc}</p>
-            <div className=" flex gap-2.5">
+            <div className="hidden md:flex gap-2.5">
                 {tchStk.map((tech, i) => (
                     <div
                     key={i}
