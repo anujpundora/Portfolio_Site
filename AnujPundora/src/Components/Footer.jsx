@@ -8,7 +8,7 @@ function Footer(){
        <div className=" flex flex-col justify-between items-center pt-8 bg-linear-to-b from-[#1A1A1A] to-[#2b2929]   h-100">
                 
                 <div id="contact-container"
-                className=" flex flex-col justify-center items-center mt-8 h-3/5 w-4/5 bg-[#2E2E2E] border border-amber-300 rounded-2xl space-y-8 p-10">
+                className=" flex flex-col justify-center items-center mt-8 h-3/5 md:w-2/5 w-4/5 bg-[#2E2E2E] border border-amber-300 rounded-2xl space-y-8 p-10">
                     <p className=" font-extrabold bg-linear-to-r from-amber-700 to-orange-200 text-4xl bg-clip-text text-transparent">
                         FIND ME ON
                     </p>
